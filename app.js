@@ -88,6 +88,16 @@ startGameBtn.addEventListener('click', () => {
   const playerSelection = getPlayerChoice();
   const computerChoice = getComputerChoice();
   const winner = getWinner(computerChoice, playerSelection);
+  let message = `You picked ${playerSelection}, computer picked ${computerChoice}, therefore you `;
+  if (winner === RESULT_DRAW) {
+    message = message + `had a draw`;
+  } else if (winner === RESULT_PLAYER_WINS) {
+    message = message + `won.`;
+  } else {
+    message = message + `lost.`;
+  }
+  alert(message);
+  gameIsRunning = false;
 });
 
 //  use this style when the anonymous function only used here
