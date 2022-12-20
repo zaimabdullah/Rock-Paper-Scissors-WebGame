@@ -137,4 +137,4 @@ const showResult = (result) => {
 
 sumUp(showResult, 1, 5, 10, -3, 6, 10); // argument no more need in array when func declaration use ... @ rest parameters
 sumUp(showResult, 1, 5, 10, -3, 6, 10, 25, 88); // use the callback function showResult
-console.log(subtractUp(1, 10, 15, 20));
+console.log(subtractUp(1, 10, 15, 20)); */
