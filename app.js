@@ -133,7 +133,7 @@ const subtractUp = function() {
 // use the callback function showResult
 const showResult = (result) => {
   alert('The result after adding all the numbers is: ' + result);
-}; 
+};
 
 sumUp(showResult, 1, 5, 10, -3, 6, 10); // argument no more need in array when func declaration use ... @ rest parameters
 sumUp(showResult, 1, 5, 10, -3, 6, 10, 25, 88); // use the callback function showResult
