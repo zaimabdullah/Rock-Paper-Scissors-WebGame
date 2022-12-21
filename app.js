@@ -110,7 +110,7 @@ startGameBtn.addEventListener('click', () => {
 
 // not related to the game
 
-/* 
+/*
 const sumUp = (resultHandler, ...numbers) => {
   const validateNumber = (number) => {
     return isNaN(number) ? 0 : number;
@@ -140,9 +140,9 @@ const subtractUp = function(resultHandler, ...numbers) {
   }
   resultHandler(sum);
 }; 
-*/
 
-/*
+
+
 // combine all operation into this one function
 const combine = (resultHandler, operation, ...numbers) => {
   const validateNumber = (number) => {
